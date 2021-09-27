@@ -10,6 +10,11 @@
 6. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will    be generated. So now when i do git operations like git add, git commit or any other git 
    operations target folder should not be considered, how would you achieve the same?
 6. difference between git pull and git fetch?
+   Ans: One use case of git fetch is that the following will tell you any changes in the remote branch since your last 
+        pull. so you can check before doing an actual pull, which could change files in your current branch and working         copy.
+        If you do a git pull, it will do basically fetch (as explained previously) and merge any new changes to your
+        master branch and move the pointer to HEAD 
+
 7. How to clone specific branch in git?
 8. Lets say your organization has github and bitbucket to store code, you have cloned a repo onto your local and changed directory name. after some days one of your team members asks you to share clone link, 
    how would you provide the same?(Ans: git remote -v )
