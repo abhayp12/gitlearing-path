@@ -6,8 +6,6 @@
    need to place my new changes some place How would handle this scenario? (Ans: Git stash, Git stash apply )
 3. What is a conflict in git?
 4. command to list all branches in a repo?(Ans: git branch -a)
-
-
 5. Why we need git? What makes git unique from other tools like SVN?
 6. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will be generated. So now when i do git operations like git add, git commit or any other git 
    operations target folder should not be considered, how would you achieve the same?
