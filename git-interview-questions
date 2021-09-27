@@ -1,1 +1,8 @@
 -- Git Interview Questions
+
+
+1. What is git-cherry-pick? why we use it?
+2. Let’s say you’re working on new feature in some branch, now your manager says stop working on that and change few other things on old code. Here after changing the old code, I need to work on new code, so I 
+   need to place my new changes some place How would handle this scenario? (Ans: Git stash, Git stash apply )
+3. What is a conflict in git?
+4. command to list all branches in a repo?(Ans: git branch -a)
